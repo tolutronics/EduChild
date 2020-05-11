@@ -1,0 +1,44 @@
+
+
+  .container{
+    background-image: url('/assets/imgs/pencil5.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding: 0px;
+    display: flex;
+      padding-top: 20px;
+      margin-top: 50px;
+  }
+
+
+  
+  
+    .header{
+      font-size: 10px;
+    }
+    .example-fill-remaining-space {
+      flex: 1 1 auto;
+    }
+    .example-icon {
+      padding: 0 14px;
+      float:right;
+    } 
+  
+    .mat-toolbar{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      color: #ffffff;
+      background-color: #83048D;
+    }
+  
+    .mat-toolbar span{
+      font-size: 30px;
+    }
+
