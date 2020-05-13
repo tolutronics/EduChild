@@ -3,8 +3,30 @@ body, html {
     padding: 0px;
 
   }
+  mat-grid-tile {
+    height: 90vh;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,255,0.1);
+  }
+
+  img{
+      width: 400px;
+      height: 300px;
+      float: left;
+  }
+
+  .container h1{
+      font-size: 30px;
+      color:#83048D;
+  }
 
 
-.background{
-    text-align: center;
+.container{
+    height: 100vh;
+    padding: 0;
+}
+
+.button{
+    width: 200px;
 }

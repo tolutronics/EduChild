@@ -1,15 +1,13 @@
 
-
   .container{
-    background-image: url('/assets/imgs/pencil5.png');
+    background-image: url('/assets/imgs/pencil5a.png');
     width: 100%;
-    height: 100vh;
+     height: 100vh;
     background-size: cover;
+    // justify-content: center;
+    // align-items: center;
     color: white;
-    text-align: center;
-    align-content: center;
-    padding: 0px;
-    display: flex;
+    // background-repeat: repeat-y;
       padding-top: 20px;
       margin-top: 50px;
   }
@@ -35,7 +33,7 @@
       right: 0;
       display: flex;
       color: #ffffff;
-      background-color: #83048D;
+      background-color: #280C60;
     }
   
     .mat-toolbar span{
