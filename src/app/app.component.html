@@ -1,6 +1,6 @@
 <div class="container">
   <mat-toolbar class="mat-toolbar" color="primary">
-    <img src="/assets/imgs/logo.png" alt="">
+    <img @fade src="/assets/imgs/logo.png" alt="">
   
     <!-- This fills the remaining space of the current row -->
     <span class="example-fill-remaining-space"></span>
@@ -10,9 +10,14 @@
         <button mat-menu-item>Help</button>
       </mat-menu>
       
-      <button mat-icon-button [matMenuTriggerFor]="appMenu">
+      <!-- <button mat-icon-button [matMenuTriggerFor]="appMenu">
         <mat-icon>more_vert</mat-icon>
-      </button>
+      </button> -->
+      <ul @fade>
+        <li><mat-icon class="icon">home</mat-icon>Home</li>
+        <li><mat-icon class="icon">history</mat-icon>About</li>
+        <li><mat-icon class="icon">contacts</mat-icon>Contact</li>
+      </ul>
       
   </mat-toolbar>
   <router-outlet></router-outlet>

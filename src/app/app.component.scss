@@ -11,8 +11,26 @@
       padding-top: 20px;
       margin-top: 50px;
   }
+  .icon{
+    padding: 10px;
+    background-color:rgb(128, 55, 128);
+    text-align: center;
+  }
 
-
+li{
+  display: inline;
+  font-size: 15px;
+  margin-left: 10px;
+  padding: 10px;
+  overflow: hidden;
+  color: yellow;
+}
+li:hover{
+  
+  font-size: 25px;
+  cursor: pointer;
+  
+}
   
   
     .header{
